@@ -123,7 +123,7 @@
 						echo "\t";
 						echo '<a href="geoip.php?ip=';
 						echo $valor;
-						echo '" target="_blank"><img class="globogif" src="imagenes/globo.gif"></a>';
+						echo '" target="_blank"><img class="globogif" src="globo.gif"></a>';
 					}
 					else
 						echo $valor;
