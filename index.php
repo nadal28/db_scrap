@@ -117,7 +117,7 @@
 				$count=0;
 				foreach($row as &$valor){	//Valores
 					echo '<td>';
-					if($count == $posicion_columna_ip && !is_null($posicion_columna_ip)){
+					if(isset($posicion_columna_ip) && $count == $posicion_columna_ip){
 						$valor = long2ip($valor);
 						echo $valor;
 						echo "\t";
